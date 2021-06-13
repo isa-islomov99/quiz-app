@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="start_btn"><button>Start</button></div>
+
+    <div class="info_box">
+        <div class="info-title"><span>Viktorina haqida</span></div>
+        <div class="info-list">
+            <div class="info">Assalomu Alekum Viktorinamizga xush kelibsiz! Ushbu Viktorinamizda siz Muqaddas Dinimiz va Suyukli Payg'ambarimiz Rasululloh sollallohu alayhi vassalamning siyratlaridan o'z bilimlaringizni oz bo'lsada qay darajada ekanligini bilib olishingiz va bilmaganlaringizni InshaAlloh bilib olishingiz va barchaga maanfatli bo'lishiga umid qilgan holda ushbu kichikkina dasturimizga qul urdik!</div>
+            <div class="info">Ushbu dasturimiz haqida bazi malumot va kichik qoidalarni sizga malum qilishga ijozat bergaysiz:</div>
+            <div class="info">1. Savollarning umumiy soni 33 ta va sizda har bir savol uchun <span>20 soniya</span> vaqt buladi.</div>
+            <div class="info">2. Javobingizni tanlaganingizdan so'ng, uni o'zgartitib bo'lmaydi.</div>
+            <div class="info">3. Vaqt tugaganidan so'ng, sizda tanlash imkoniyati qolmaydi va siz mag'lub bulasiz.</div>
+            <div class="info">4. Agarda 3 marotaba noto'g'ri javob tanlasangiz ham mag'lub bulasiz.</div>
+            <div class="info">5. Siz uyin vaqtida Viktorinadan chiqib keta olmaysiz.</div>
+            <div class="info">6. Har bir to'g'ri javob uchun sizga 2 ball beriladi, noto'g'ri javob uchun ham 2 ball kamayadi.</div>
+            <div class="info">Ha aytgancha agarda 33-savolgacha yetib borsangiz sizga u yerda go'zal bir tuhfa tayyorlab qo'yganmiz. O'yin barchaga manfaatli buladi degan umiddamiz!</div>
+            <div class="info_second">Viktorinadagi savollar marhum xazrat Shayx Muhammad Sodiq Muhammad Yusuf Xazratlarining kitoblaridan foydalanilgan holda tayyorlandi.</div>
+        </div>
+        <div class="creater_quiz">
+            <h3>O'yin asoschisi</h3>
+            <a href="https://t.me/IslamovDev">
+                <div class="creater_quiz_info">
+                    <img src="./img/me1.jpg" alt="me">
+                    <h4>Ismoil Islomov</h4>
+                    <p>Front-end dasturchi</p>
+                </div>
+            </a>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit</button>
+            <button class="restart">Boshladik</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">
+                <!-- <button>0 ball</button> -->
+            </div>
+            <div class="header_que_count">
+                <!-- <button>1-savol</button> -->
+            </div>
+            <div class="timer">0:20</div>
+        
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Keyingi savol</button>
+        </footer>
+    </div>
+
+    <div class="user_loose_box">
+        <div class="icon">
+            <img src="./img/fail-img.svg" alt="rasmcha">
+        </div>
+        <div class="loose_text">Siz Mag'lub buldingiz!</div>
+        <div class="loose_text_second">
+            Alloh ilmingizni ziyoda qilsin
+        </div>
+        <div class="loose_button">
+            <button class="loose_btn">Ok</button>
+        </div>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_title">Tabriklaymiz!</div>
+        <div class="complete_text"></div>
+        <div class="score_text">
+            Shu joyga yetib kelganingiz munosabati bilan bizdan sizga go'zal eslatmalar bo'lgan saxih hadislardan bir nechtasini tuhfa qilamiz, marhamat!
+        </div>
+        <div class="buttons">
+            <button class="quit">Qabul qilish</button>
+        </div>
+    </div>
+
+    <div class="surprise_box">
+        <div class="surprise_list">
+            <div class="surprise_text">
+                <h4>Aziz dindoshim, sizga biroz eslatma berish niyatida go‘zal Xadislardan bir nechtasini havola etmoqchimiz!</h4>
+                <p>Va eslatgin. Albatta, eslatish mo'minlarga manfaat berur.<br /> (Zarriyat surasi, 55-oyat)</p>
+            </div>
+            <div class="surprise_txt">
+                Abu Xurayra roziyallohu anhudan rivoyat qilinadi: ”Rasululloh sollallohu alayhi vassalam dedilar: Senga manfaat beradigan narsaga ishtiyoqmand bo‘l va Allohdan yordam so‘ra! Muslim rivoyat qilgan
+            </div>
+            <div class="surprise_txt">
+                Abdulloh inb Umar roziyallohu anhumodan rivoyat qilinadi: “Rosululloh sollallohu alayhi vassalam: Islom besh narsaga bino qilingandir: “La ilaha illallohu Muhammadur Rosululloh”, deb shaxodat keltirish, namozni to‘kis ado etish, zakot berish, xaj qilish va Ramazon ro‘zasini tutish, dedilar” Buxoriy, Muslim, Termiziy va Nasaiy rivoyat qilgan
+            </div>
+            <div class="surprise_txt">
+                Abu Xurayra roziyallohu anhudan rivoyat qilinadi: “Nabiy sollalloxu alayxi vassalam: Kim bir mo‘mindan bu dunyo mashaqqatlaridan birini aritsa, Alloh taolo undan qiyomat kuni mashaqqatlaridan birini aritadi. Kim bir musulmonning aybini berkitsa, Alloh uning aybini bu dunyoyu oxiratda berkitadi. Kim bir kambag’alning ishini yengillatsa, Alloh uning bu dunyoyu oxiratida ishlarini yengillatadi. Modomiki, banda o‘z birodarining yordamida ekan, Alloh ham uning yordamida bo‘ladi, dedilar” Muslim, Abu Dovud va Termiziy rivoyat qilganlar
+            </div>
+            <div class="surprise_txt">
+                Abu Hurayra roziyallohu anhudan rivoyat qilinadi: “Nabiy sollallohu alayhi vassallam: Uch duo mustajobdir, ularda shak yo‘q: ota-onaning duosi, musofirning duosi va mazlumning duosi, dedilar” Abu Dovud, Ahmad va Termiziy rivoyat qilganlar.
+            </div>
+            <div class="surprise_txt">
+                Abu Hurayra roziyallohu anhudan rivoyat qilinadi: “Nabiy sollallohu alayhi vassallam: Bir odam yo‘lda yurib ketayotib, tikanli shoxni ko‘rib qolibdi va uni yo‘ldan olib tashlabdi. Bas, Alloh unga shukr aytibdi va uni mag‘firat qilibdi, dedilar” Buxoriy, Muslim Termiziy va Nasaviy rivoyat qilganlar
+            </div>
+            <div class="surprise_txt">
+                Abu Hurayra roziyallohu anhudan rivoyat qilinadi: “Nabiy sollallohu alayhi vassallam: Kim kichigimizga rahim qilmasa va kattamizning xaqqini bilmasa, bizdan emas, dedilar” Buxoriy rivoyat qilgan
+            </div>
+            <div class="second_txt">
+                “Bataxqiq, sizlar uchun Rasulullohda go‘zal o‘rnak bor edi” <br /> (Axzob surasi, 21-oyat)
+            </div>
+            <div class="finish_list">
+                <h1>E’tiboringiz uchun rahmat!</h1>
+                <p>Shayx Muhammad Soqid Muhammad Yusufning “Ijtimoiy odoblar” kitobidan</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="finish_btn">Ok</button>
+        </div>
+    </div>
+
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
+</html>
