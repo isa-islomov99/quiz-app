@@ -290,7 +290,7 @@ const questions = [
         question: "27. Fir'avnning ayoli, Jannat saidalaridan bo'lgan ayolning ismi ?",
         answer: "Osiyo",
         options: [
-            "MAryam",
+            "Maryam",
             "Sora",
             "Osiyo",
             "Xojar",

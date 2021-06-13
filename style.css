@@ -801,8 +801,8 @@ footer button.show {
   .result_box {
     width: 90%;
     /* margin-top: 1.5rem; */
-    height: 560px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
+    height: 575px;
   }
   .result_box .icon {
     font-size: 80px;
@@ -832,7 +832,7 @@ footer button.show {
 
   .surprise_box {
     width: 90%;
-    height: 75vh;
+    height: 85vh;
     /* margin-top: 2rem; */
   }
   .surprise_box .surprise_list {
