@@ -36,6 +36,7 @@ body {
 .info_box,
 .quiz_box,
 .result_box,
+.step_box,
 .user_loose_box,
 .surprise_box {
   position: absolute;
@@ -48,6 +49,7 @@ body {
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
 .result_box.activeResult,
+.step_box.activeStep,
 .user_loose_box.activeLoose,
 .surprise_box.activeSurprise {
   opacity: 1;
@@ -360,34 +362,81 @@ footer .total_que span p:first-child {
   padding-left: 0px;
 }
 
-/* footer button {
-  height: 40px;
-  padding: 0 13px;
-  font-size: 18px;
+.step_box {
+  width: 650px;
+  height: 366px;
+  padding: 20px 48px 40px 48px;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: #23a1dc;
+  transform: translate(-50%, -50%) scale(0.9);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.step_box .step_icon .fa-crown {
+  color: #fff;
+  font-size: 85px;
+  padding-top: 10px;
+}
+.step_box .step_text {
+  color: #fff;
+  font-size: 38px;
+  padding: 30px 0 15px 0;
+}
+.step_box .motivation_text {
+  color: #fff;
+  font-size: 22px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.step_box .step_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+/* .step_box .step_buttons .back {
+  background: #ca1e1e;
+  -webkit-box-shadow: 2px 2px 5px #820606;
+  box-shadow: 2px 2px 5px #820606;
+  border-radius: 8px;
+  padding: 6px 25px;
+  display: inline-block;
+  font-style: normal;
   font-weight: 400;
   cursor: pointer;
   border: none;
   outline: none;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
   color: #fff;
-  border-radius: 5px;
-  background: #328dee;
-  border: 1px solid #328dee;
-  line-height: 10px;
-  opacity: 0;
-  pointer-events: none;
-  transform: scale(0.95);
-  transition: all 0.3s ease;
-}
-
-footer button:hover {
-  background: #0263ca;
-}
-
-footer button.show {
-  opacity: 1;
-  pointer-events: auto;
-  transform: scale(1);
 } */
+.step_box .step_buttons .next_step_btn {
+  background: #06e002;
+  border: 1px solid #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 0 20px #82ff47;
+  box-shadow: 0 0 20px #82ff47;
+  border-radius: 8px;
+  /* margin-left: 27px; */
+  cursor: pointer;
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #fff;
+  padding: 6px 12px;
+}
 
 .user_loose_box {
   width: 650px;
@@ -711,6 +760,7 @@ footer button.show {
     }
     .info_box,
     .quiz_box,
+    .step_box,
     .result_box,
     .user_loose_box,
     .surprise_box {
