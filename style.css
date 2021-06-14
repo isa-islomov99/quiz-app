@@ -360,7 +360,7 @@ footer .total_que span p:first-child {
   padding-left: 0px;
 }
 
-footer button {
+/* footer button {
   height: 40px;
   padding: 0 13px;
   font-size: 18px;
@@ -387,7 +387,7 @@ footer button.show {
   opacity: 1;
   pointer-events: auto;
   transform: scale(1);
-}
+} */
 
 .user_loose_box {
   width: 650px;
@@ -802,7 +802,7 @@ footer button.show {
     width: 90%;
     /* margin-top: 1.5rem; */
     /* overflow-y: scroll; */
-    height: 575px;
+    /* height: 575px; */
   }
   .result_box .icon {
     font-size: 80px;
