@@ -364,7 +364,7 @@ const questions = [
     },
     {
         numb: 34,
-        question: "34. Hazrati Umar ibn Hattob R.A. bir kishi haqida so’z ketganda doimo shunday deganlar: Bizning sayyidimiz va sayyidimizni ozod qilgan inson. Savol: Bu so’zlarda kelgan ikki sayyid - sahobiyni toping ?",
+        question: "34. Umar ibn Hattob R.A. bir kishi haqida so’z ketganda doimo shunday deganlar: Bizning sayyidimiz va sayyidimizni ozod qilgan inson. Savol: Bu so’zlarda kelgan ikki sayyid - sahobiyni toping ?",
         answer: "Bilol Xabashiy R.A",
         options: [
             "Ibn Muoz R.A",
@@ -397,7 +397,7 @@ const questions = [
     },
     {
         numb: 37,
-        question: "37. Qalam surasining 10-16-oyatlarida ta’riflangan qasamxor, past, tuhmatchi, giybatchi, baxil, haddidan oshgan, gumroh, qopol, ustiga-ustak otasi nomalum odam kim edi ?",
+        question: "37. Qalam surasining 10-16-oyatlarida ta’riflangan qasamxo'r, pastkash, chaqimchi, tajovuzkor, sergunoh, ayblovchi, qo'pol, ustiga-ustak otasining tayini yuq kim edi ?",
         answer: "Valid ibni Mug’ira",
         options: [
             "Valid ibni Mug’ira",
@@ -518,7 +518,7 @@ const questions = [
     },
     {
         numb: 48,
-        question: "48.  Rasululloh Sollalohu Alayhi Vasallam shunday deganlar: Bu surani avvalgi o’n oyatiga, kimda kim to’la holda rioya qilib umr o’tkazsa, u shubhasiz jannatning eng ulug’i sanalgan Jannatul Firdavs merosh’ori bo’ladi.... Bu sura qaysi ?",
+        question: "48.  Rasululloh Sollalohu Alayhi Vasallam qaysi surani: Bu surani avvalgi o’n oyatiga, kimda kim to’la holda rioya qilib umr o’tkazsa, u shubhasiz jannatning eng ulug’i sanalgan Jannatul Firdavs merosh’ori bo’ladi... deganlar ?",
         answer: "Mo'minun surasi",
         options: [
             "Naml surasi",
