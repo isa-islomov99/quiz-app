@@ -278,7 +278,7 @@ continue_btn.onclick = () => {
   quiz_box.classList.add("activeQuiz");
   showQuestions(que_count);
   queCounter(bott_que_counter);
-  timerQuestion(30);
+  timerQuestion(33);
   timeLine(timeLineWidth);
 };
 
@@ -305,14 +305,14 @@ let que_count = 0;
 let bott_que_counter = 1;
 let countCorrAnsw = 0;
 let countTime;
-let valueCountTime = 30;
+let valueCountTime = 33;
 let timeLineWidth = 0;
 let countLine;
 let countStepNext;
 let numbCorrectAnswer = 0;
 let numbWrongAnswer = 0;
 let countUserScore = 0;
-let countСhance = 3;
+let countСhance = 4;
 // let differentcountAnswer = Math.floor(Math.random() * 4)
 
 const showQuestions = (index) => {
@@ -342,16 +342,16 @@ const showQuestions = (index) => {
 function succsessStep() {
     const step_text = step_box.querySelector(".step_text");
     const motivation_text = step_box.querySelector(".motivation_text");
-  if (que_count == 19) {
+  if (que_count == 16) {
     step_box.classList.add("activeStep");
     clearTimeout(countStepNext);
     document.body.style.background = "#185ca3";
     quiz_box.classList.remove("activeQuiz");
   } 
-  else if (que_count == 29) {
+  else if (que_count == 34) {
     step_box.classList.add("activeStep");
     step_text.textContent = "2 -Bosqich yakunlandi!"
-    motivation_text.textContent = "MashaAllah 👏 so'ngi bosqich qoldi, shu rusunda davom eting 😊👍"
+    motivation_text.textContent = " So'ngi bosqich qoldi, shu rusunda davom eting 😊👍"
     next_step_btn.textContent = "3-bosqich"
     clearTimeout(countStepNext);
     document.body.style.background = "#185ca3";
@@ -363,7 +363,6 @@ function stepNextQues() {
   if (que_count < questions.length - 1) {
     que_count++;
     showQuestions(que_count);
-    // succsessStep();
     bott_que_counter++;
     queCounter(bott_que_counter);
     clearInterval(countTime);
@@ -385,7 +384,6 @@ function optionSelected(answer) {
   let correctAns = questions[que_count].answer;
   countStepNext = setTimeout(stepNextQues, 2000);
   setTimeout(succsessStep, 1000);
-  //   succsessStep();
   const allOptions = option_list.children.length;
   if (usAns == correctAns) {
     answer.classList.add("correct");
@@ -433,7 +431,7 @@ function optionSelected(answer) {
     answer.classList.add("incorrect");
     answer.insertAdjacentHTML("beforeend", iconCross);
 
-    if (numbWrongAnswer == 3) {
+    if (numbWrongAnswer == 4) {
       setTimeout(() => {
         document.body.style.background = "rgba(108, 0, 0, 0.78)";
         user_loose_box.classList.add("activeLoose");
@@ -441,9 +439,9 @@ function optionSelected(answer) {
         quiz_box.classList.remove("activeQuiz");
         result_box.classList.remove("activeResult");
         start_btn.style.display = "none";
-      }, 2000);
+      }, 1000);
     }
-    if (numbWrongAnswer && numbWrongAnswer >= 0 && numbWrongAnswer < 3) {
+    if (numbWrongAnswer && numbWrongAnswer >= 0 && numbWrongAnswer < 4) {
       setTimeout(() => {
         countСhance--;
         alert(`Yana ${countСhance} bor adashsangiz mag'lub bulasiz`);
@@ -468,7 +466,7 @@ function timerQuestion(time) {
   function startTimer() {
     time--;
     timer_sec.textContent = time;
-    if (time < 30) {
+    if (time < 33) {
       timer_sec.textContent = `0:${time}`;
     }
     if (time < 10) {
@@ -487,11 +485,11 @@ function timerQuestion(time) {
 }
 
 function timeLine(count) {
-  countLine = setInterval(startTimeLine, 49);
+  countLine = setInterval(startTimeLine, 53);
   function startTimeLine() {
     count += 1;
     time_line.style.width = `${count}px`;
-    if (count > 613) {
+    if (count > 618) {
       clearInterval(countLine);
     }
   }

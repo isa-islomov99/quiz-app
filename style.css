@@ -8,13 +8,7 @@
 
 body {
   background: #328dee;
-  /* background: rgb(35, 161, 220); */
-  /* background: url(./img/99-995582_m.jpg);
-  background: url(./img/wp4938006.jpg);
-  background-repeat: no-repeat; */
-  /* background-size: cover; */
   width: 100%;
-  /* height: 100vh; */
 }
 
 ::-webkit-scrollbar {
@@ -24,7 +18,6 @@ body {
   background: #328dee;
 }
 ::-webkit-scrollbar-track {
-  /* background: #f1f1f1; */
   background: #328dee;
 }
 ::selection {
@@ -387,6 +380,7 @@ footer .total_que span p:first-child {
   color: #fff;
   font-size: 38px;
   padding: 30px 0 15px 0;
+  text-align: center;
 }
 .step_box .motivation_text {
   color: #fff;
@@ -401,23 +395,6 @@ footer .total_que span p:first-child {
   padding-top: 10px;
 }
 
-/* .step_box .step_buttons .back {
-  background: #ca1e1e;
-  -webkit-box-shadow: 2px 2px 5px #820606;
-  box-shadow: 2px 2px 5px #820606;
-  border-radius: 8px;
-  padding: 6px 25px;
-  display: inline-block;
-  font-style: normal;
-  font-weight: 400;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  font-size: 16px;
-  line-height: 27px;
-  text-align: center;
-  color: #fff;
-} */
 .step_box .step_buttons .next_step_btn {
   background: #06e002;
   border: 1px solid #fff;
@@ -618,10 +595,10 @@ footer .total_que span p:first-child {
   .info_box,
   .quiz_box,
   .result_box,
+  .step_box,
   .user_loose_box,
   .surprise_box {
     width: 90%;
-    top: 25%;
   }
   .info_box .info-list {
     padding: 15px 20px;
@@ -708,7 +685,7 @@ footer .total_que span p:first-child {
     width: 90%;
     margin-top: 1.5rem;
     height: 530px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
   }
   .result_box .icon {
     font-size: 80px;
@@ -831,6 +808,20 @@ footer .total_que span p:first-child {
     font-size: 16px;
   }
 
+  .step_box {
+    height: 430px;
+  }
+
+  .step_box .step_icon .fa-crown {
+    font-size: 80px;
+  }
+  .step_box .step_text {
+    font-size: 33px;
+  }
+  .step_box .motivation_text {
+    font-size: 20px;
+  }
+
   .user_loose_box {
     width: 90%;
     padding: 30px 25px;
@@ -850,6 +841,7 @@ footer .total_que span p:first-child {
 
   .result_box {
     width: 90%;
+    height: 600px;
     /* margin-top: 1.5rem; */
     /* overflow-y: scroll; */
     /* height: 575px; */

@@ -12,7 +12,7 @@ const questions = [
     },
     {
         numb: 2,
-        question: "24. Taxoratda nechta farz bor ?",
+        question: "2. Taxoratda nechta farz bor ?",
         answer: "4ta",
         options: [
             "5ta",
@@ -23,7 +23,7 @@ const questions = [
     },
     {
         numb: 3,
-        question: "25. G'uslda nechta farz bor ?",
+        question: "3. G'uslda nechta farz bor ?",
         answer: "3ta",
         options: [
             "4ta",
@@ -34,7 +34,7 @@ const questions = [
     },
     {
         numb: 4,
-        question: "11. Oyatal kursi qaysi surada kelgan ?",
+        question: "4. Oyatal kursi qaysi surada kelgan ?",
         answer: "Baqara",
         options: [
             "Tavba",
@@ -45,7 +45,7 @@ const questions = [
     },
     {
         numb: 5,
-        question: "30. Beshikda yotgan vaqtidayoq gapirgan Payg‘ambar ?",
+        question: "5. Beshikda yotgan vaqtidayoq gapirgan Payg‘ambar ?",
         answer: "Iso Alayhissalom",
         options: [
             "Yusuf Alayhissalom",
@@ -56,7 +56,7 @@ const questions = [
     },
     {
         numb: 6,
-        question: "31. Iso Alayhissalomga nozil bo'lgan kitob ?",
+        question: "6. Iso Alayhissalomga nozil bo'lgan kitob ?",
         answer: "Injil",
         options: [
             "Tavrot",
@@ -67,7 +67,7 @@ const questions = [
     },
     {
         numb: 7,
-        question: "32. Islomda aza necha kun ?",
+        question: "7. Islomda aza necha kun ?",
         answer: "3 kun",
         options: [
             "3 kun",
@@ -78,7 +78,7 @@ const questions = [
     },
     {
         numb: 8,
-        question: "7. Tushida 11ta yulduz quyosh va oyni o'ziga sajda qilayotganini ko'rgan payg'ambar qaysi ?",
+        question: "8. Tushida 11ta yulduz quyosh va oyni o'ziga sajda qilayotganini ko'rgan payg'ambar qaysi ?",
         answer: "Yusuf Alayhissalom",
         options: [
             "Ibrohim Alayhissalom",
@@ -89,7 +89,7 @@ const questions = [
     },
     {
         numb: 9,
-        question: "6. Maryam onamiz Yaxho Alayhissalomga kim bo'lgan ?",
+        question: "9. Maryam onamiz Yaxho Alayhissalomga kim bo'lgan ?",
         answer: "Xolalari",
         options: [
             "Xolalari",
@@ -100,7 +100,7 @@ const questions = [
     },
     {
         numb: 10,
-        question: "27. Fir'avnning ayoli, Jannat saidalaridan bo'lgan ayolning ismi ?",
+        question: "10. Fir'avnning ayoli, Jannat saidalaridan bo'lgan ayolning ismi ?",
         answer: "Osiyo",
         options: [
             "Maryam",
@@ -111,18 +111,18 @@ const questions = [
     },
     {
         numb: 11,
-        question: "7. Tushida 11ta yulduz quyosh va oyni o'ziga sajda qilayotganini ko'rgan payg'ambar qaysi ?",
-        answer: "Yusuf Alayhissalom",
+        question: "11. Munofiqlar uchun eng og'ir bo'lgan namozlar qaysi ?",
+        answer: "Bomdod va Xufton",
         options: [
-            "Ibrohim Alayhissalom",
-            "Dovud Alayhissalom",
-            "Yunus Alayhissalom",
-            "Yusuf Alayhissalom",
+            "Bomdod va Xufton",
+            "Xufton va Peshin",
+            "Shom va Xufton",
+            "Asr va Bomdod",
         ]
     },
     {
         numb: 12,
-        question: "9. Quyidagilar orasidan qaysi Ayolni ismlari Qu'ron da zikri kelgan ?",
+        question: "12. Quyidagilar orasidan qaysi Ayolni ismlari Qu'ron da zikri kelgan ?",
         answer: "Maryam onamiz",
         options: [
             "Xadicha onamiz",
@@ -133,7 +133,7 @@ const questions = [
     },
     {
         numb: 13,
-        question: "12. Asadulloh (Allohning arsloni) nomini olgan sahoba kim edi ?",
+        question: "13. Asadulloh (Allohning arsloni) nomini olgan sahoba kim edi ?",
         answer: "Hamza Ibn Abdumuttalib R.A",
         options: [
             "Abu Bakr Siddiq R.A",
@@ -144,7 +144,7 @@ const questions = [
     },
     {
         numb: 14,
-        question: "13. Qur'ondagi eng kichik sura ?",
+        question: "14. Qur'ondagi eng kichik sura ?",
         answer: "Kavsar surasi",
         options: [
             "Ixlos surasi",
@@ -155,7 +155,7 @@ const questions = [
     },
     {
         numb: 15,
-        question: "29. Payg‘ambarimiz Sollalohu Alayhi Vasallamning Otalari ismi ?",
+        question: "15. Payg‘ambarimiz Sollalohu Alayhi Vasallamning Otalari ismi ?",
         answer: "Abdulloh",
         options: [
             "Abdulmuttalib",
@@ -166,7 +166,7 @@ const questions = [
     },
     {
         numb: 16,
-        question: "33. Juma kuni qaysi surani o'qish tavsiya qilinadi ?",
+        question: "16. Juma kuni qaysi surani o'qish tavsiya qilinadi ?",
         answer: "Kahf surasi",
         options: [
             "Ixlos surasi",
@@ -177,7 +177,7 @@ const questions = [
     },
     {
         numb: 17,
-        question: "18. Al-Jome As-Sahih kitobining muallifi kim ?",
+        question: "17. Al-Jome As-Sahih kitobining muallifi kim ?",
         answer: "Imom Buxoriy",
         options: [
             "Imom Termiziy",
@@ -188,7 +188,7 @@ const questions = [
     },
     {
         numb: 18,
-        question: "19. Islom Tarixida eng yosh islomni qabul qilgan kishi ?",
+        question: "18. Islom Tarixida eng yosh islomni qabul qilgan kishi ?",
         answer: "Ali Ibn Abu Tolib R.A",
         options: [
             "Usmon Ibn Affon R.A",
@@ -199,7 +199,7 @@ const questions = [
     },
     {
         numb: 19,
-        question: "20. Payg‘ambarimiz Sollalohu Alayhi Vasallamdan keyin ummat orasida 1-Jannatga kiradigan inson ?",
+        question: "19. Payg‘ambarimiz Sollalohu Alayhi Vasallamdan keyin ummat orasida 1-Jannatga kiradigan inson ?",
         answer: "Abu Bakr Siddiq R.A",
         options: [
             "Umar Ibn Hattob R.A",
@@ -210,7 +210,7 @@ const questions = [
     },
     {
         numb: 20,
-        question: "1. Payg'ambarimiz Sollalohu Alayhi Vasallamga 2-vahy qaysi sura va oyatlar bo'lgan ?",
+        question: "20. Payg'ambarimiz Sollalohu Alayhi Vasallamga 2-vahy qaysi sura va oyatlar bo'lgan ?",
         answer: "Muddassir surasining 1-7 oyati",
         options: [
             "Sod surasining 10-14 oyati",
@@ -221,7 +221,7 @@ const questions = [
     },
     {
         numb: 21,
-        question: "2. Payg'ambarimiz Sollalohu Alayhi Vasallamning vafotlari ?",
+        question: "21. Payg'ambarimiz Sollalohu Alayhi Vasallamning vafotlari ?",
         answer: "Milodiy 632-yil 6-iyun",
         options: [
             "Milodiy 632-yil 6-iyun",
@@ -232,7 +232,7 @@ const questions = [
     },
     {
         numb: 22,
-        question: "4.Hadicha onamizdan so‘ng Rasululloh Sollalohu Alayhi Vasallamga xotin bo‘lgan birinchi ayol kim edi ?",
+        question: "22.Hadicha onamizdan so‘ng Rasululloh Sollalohu Alayhi Vasallamga xotin bo‘lgan birinchi ayol kim edi ?",
         answer: "Savda binti Zam’a R.A",
         options: [
             "Zaynab binti Jahsh R.A",
@@ -243,18 +243,18 @@ const questions = [
     },
     {
         numb: 23,
-        question: "15. “Va albatta u (jahannam)dan taqvodor banda chetda qoladir. U boyligini sarflaydi va o’zini poklaydi” (Layl surasi 17-18-oyatlar). Bu oyat qaysi Saxobiy sababidan nozil bo'lgan edi ?",
+        question: "23. “Va albatta u (jahannam)dan taqvodor banda chetda qoladir. U boyligini sarflaydi va o’zini poklaydi” (Layl surasi 17-18-oyatlar). Bu oyat qaysi Saxobiy sababidan nozil bo'lgan edi ?",
         answer: "Abu Bakr Siddiq R.A",
         options: [
             "Abu Bakr Siddiq R.A",
             "Umar Ibn Hattob R.A",
             "Ali Ibn Abu Tolib R.A",
-            "Abdulloh Ibn Masur R.A",
+            "Abdulloh Ibn Masud R.A",
         ]
     },
     {
         numb: 24,
-        question: "5. Payg‘ambarimiz Sollalohu Alayhi Vasallamning Otalari nechchi yoshlarida vafot qilganlar ?",
+        question: "24. Payg‘ambarimiz Sollalohu Alayhi Vasallamning Otalari nechchi yoshlarida vafot qilganlar ?",
         answer: "25 yoshlarida",
         options: [
             "24 yoshlarida",
@@ -265,7 +265,7 @@ const questions = [
     },
     {
         numb: 25,
-        question: "10. Payg‘ambarimiz Sollalohu Alayhi Vasallamning ko'ksilari yorilish voqesi nima deb ataladi ?",
+        question: "26. Payg‘ambarimiz Sollalohu Alayhi Vasallamning ko'ksilari yorilish voqesi nima deb ataladi ?",
         answer: "Shaqqu as-sodr",
         options: [
             "Fath alqalb",
@@ -276,7 +276,7 @@ const questions = [
     },
     {
         numb: 26,
-        question: "22. Payg‘ambarimiz Sollalohu Alayhi Vasallamni 2 yil emizgan onalari ismlari ?",
+        question: "26. Payg‘ambarimiz Sollalohu Alayhi Vasallamni 2 yil emizgan onalari ismlari ?",
         answer: "Halimayi Sa’diyya",
         options: [
             "Halimayi Sa’diyya",
@@ -287,7 +287,7 @@ const questions = [
     },
     {
         numb: 27,
-        question: "3. Rasululloh Sollalohu Alayhi Vasallam qaysi ummul-mo‘miniynni bir marta taloq qildilar bu kim edi ?",
+        question: "27. Rasululloh Sollalohu Alayhi Vasallam qaysi ummul-mo‘miniynni bir marta taloq qildilar bu kim edi ?",
         answer: "Hafsa binti Umar R.A",
         options: [
             "Hafsa binti Umar R.A",
@@ -298,7 +298,7 @@ const questions = [
     },
     {
         numb: 28,
-        question: "16. Umar R.A ning hilifaliklari qancha vaqt davom etgan ?",
+        question: "28. Umar R.A ning hilifaliklari qancha vaqt davom etgan ?",
         answer: "10 yilu 6 oy",
         options: [
             "10 yilu 4 oy",
@@ -309,7 +309,7 @@ const questions = [
     },
     {
         numb: 29,
-        question: "17. Qur'oni Karimda ismi zikr qilingan Sahoba ismlari ?",
+        question: "29. Qur'oni Karimda ismi zikr qilingan Sahoba ismlari ?",
         answer: "Zayd Ibn Xorisa R.A",
         options: [
             "Zayd Ibn Xorisa R.A",
@@ -320,8 +320,8 @@ const questions = [
     },
     {
         numb: 30,
-        question: "23. Jabroil alayhissalom Rasululloh Sollalohu Alayhi Vasallam oldilariga qaysi Sahobaning suratlarida kelganlar ?",
-        answer: "Dihyatul Kalbiy R.A",
+        question: "30. Jabroil alayhissalom Rasululloh Sollalohu Alayhi Vasallam oldilariga qaysi Sahobaning suratlarida kelganlar ?",
+        answer: "Dihyatul Ibn Xalifa al Kalbiy R.A",
         options: [
             "Zayd Ibn Xorisa R.A",
             "Sa'd Ibn Muoz R.A",
@@ -331,7 +331,7 @@ const questions = [
     },
     {
         numb: 31,
-        question: "26. Xalifalar ichida 1- bo'lib shaxid bo'lgan Xalifa kim ?",
+        question: "31. Xalifalar ichida 1- bo'lib shaxid bo'lgan Xalifa kim ?",
         answer: "Umar Ibn Hattob R.A",
         options: [
             "Ali Ibn Abu Tolib R.A",
@@ -342,18 +342,7 @@ const questions = [
     },
     {
         numb: 32,
-        question: "28. Abu Turob (tuproqqa belangan) nomi qaysi Sahobaga berilgan edi ?",
-        answer: "Ali Ibn Abu Tolib R.A",
-        options: [
-            "Ali Ibn Abu Tolib R.A",
-            "Umar Ibn Hattob R.A",
-            "Abu Bakr Siddiq R.A",
-            "Usmon Ibn Affon R.A",
-        ]
-    },
-    {
-        numb: 33,
-        question: "28. Harsanglarni toshlarni ko’tardim lekin.....ko’ra og’irroq narsani ko’rmadim Ali Ibn Abu Tolib R.A.ga ogirlik qilgan narsa nima ?",
+        question: "32. Harsanglarni toshlarni ko’tardim lekin.....ko’ra og’irroq narsani ko’rmadim Ali Ibn Abu Tolib R.A.ga ogirlik qilgan narsa nima ?",
         answer: "Qarz",
         options: [
             "Gunoh",
@@ -363,8 +352,8 @@ const questions = [
         ]
     },
     {
-        numb: 34,
-        question: "28. Masjidul haromni ilk bor kengaytirib ta’mirlagan Sahobiy kim ?",
+        numb: 33,
+        question: "33. Masjidul haromni ilk bor kengaytirib ta’mirlagan Sahobiy kim ?",
         answer: "Umar Ibn Hattob R.A",
         options: [
             "Ali Ibn Abu Tolib R.A",
@@ -374,8 +363,8 @@ const questions = [
         ]
     },
     {
-        numb: 35,
-        question: "28. Hazrati Umar ibn Hattob R.A. bir kishi haqida so’z ketganda doimo shunday deganlar: Bizning sayyidimiz va sayyidimizni ozod qilgan inson. Savol: Bu so’zlarda kelgan ikki sayyid - sahobiyni toping ?",
+        numb: 34,
+        question: "34. Hazrati Umar ibn Hattob R.A. bir kishi haqida so’z ketganda doimo shunday deganlar: Bizning sayyidimiz va sayyidimizni ozod qilgan inson. Savol: Bu so’zlarda kelgan ikki sayyid - sahobiyni toping ?",
         answer: "Bilol Xabashiy R.A",
         options: [
             "Ibn Muoz R.A",
@@ -385,19 +374,41 @@ const questions = [
         ]
     },
     {
-        numb: 36,
-        question: "28. Salaflarning eng so’nggi vakili kim ?",
+        numb: 35,
+        question: "35. Salaflarning eng so’nggi vakili kim ?",
         answer: "Imom Ahmad ibn Hanbal",
         options: [
             "Imom Abu Xanifa",
             "Imom Ahmad ibn Hanbal",
             "Imom Shofeiy",
             "Imom Buxoriy",
+        ]
+    },
+    {
+        numb: 36,
+        question: "36. Halifalar ichida eng ko’p halifalik qilgan Sahoba ?",
+        answer: "Usmon Ibn Affon R.A",
+        options: [
+            "Abu Bakr Siddiq R.A",
+            "Umar Ibn Hattob R.A",
+            "Usmon Ibn Affon R.A",
+            "Ali Ibn Abu Tolib R.A",
         ]
     },
     {
         numb: 37,
-        question: "28. Islom olamida ushbu insonning janozasiga eng ko’p odam yig’ilgan(1.000.000 dan ziyod).Ushbu buyuk inson kim ?",
+        question: "37. Qalam surasining 10-16-oyatlarida ta’riflangan qasamxor, past, tuhmatchi, giybatchi, baxil, haddidan oshgan, gumroh, qopol, ustiga-ustak otasi nomalum odam kim edi ?",
+        answer: "Valid ibni Mug’ira",
+        options: [
+            "Valid ibni Mug’ira",
+            "Abu Jaxl",
+            "Musaylama Kazzob",
+            "Barcha javoblar to'g'ri",
+        ]
+    },
+    {
+        numb: 38,
+        question: "38. Islom olamida ushbu insonning janozasiga eng ko’p odam yig’ilgan(1.000.000 dan ziyod).Ushbu buyuk inson kim ?",
         answer: "Imom Ahmad ibn Hanbal",
         options: [
             "Imom Abu Xanifa",
@@ -407,19 +418,41 @@ const questions = [
         ]
     },
     {
-        numb: 38,
-        question: "28. Rasululloh Rasululloh Sollalohu Alayhi Vasallam faqat bir sahobiyga ota-onam senga fido bo’lsin deganlar. Bu sahobiy kim ?",
+        numb: 39,
+        question: "39. Rasululloh Rasululloh Sollalohu Alayhi Vasallam qaysi Sahobiyga ota-onam senga fido bo’lsin deganlar ?",
         answer: "Sa’d ibn Abu Vaqqos R.A",
         options: [
             "Sa’d ibn Abu Vaqqos R.A",
             "Ibn Muoz R.A",
             "Abu Bakr Siddiq R.A",
-            "Usmon Ibn Affon R.A",
+            "Barcha javoblar to'g'ri",
         ]
     },
     {
-        numb: 39,
-        question: "28. Rasululloh Sollalohu Alayhi Vasallamning duolari sabab o’qi hech qahcon hato ketmagan va duosi doimo ijobat bo’lgan sahobiy kim ?",
+        numb: 40,
+        question: "40. Badr g’azotida musulmonlardan necha kishi shahid bo’lgan edi ?",
+        answer: "14 kishi",
+        options: [
+            "25 kishi",
+            "18 kishi",
+            "14 kishi",
+            "17 kishi",
+        ]
+    },
+    {
+        numb: 41,
+        question: "41. Rasululloh Sollalohu Alayhi Vasallam qaysi Sahobiyga: Ummatim orasida halol va haromni eng yahshi biluvchi inson’,-deya ta’rif berganlar ?",
+        answer: "Muoz ibn Jabal R.A",
+        options: [
+            "Muoz ibn Jabal R.A",
+            "Zayd Ibn Xorisa R.A",
+            "Musab ibn Umayr R.A",
+            "Ibn Muoz R.A",
+        ]
+    },
+    {
+        numb: 42,
+        question: "42. Rasululloh Sollalohu Alayhi Vasallamning duolari sabab o’qi hech qahcon hato ketmagan va duosi doimo ijobat bo’lgan sahobiy kim ?",
         answer: "Sa’d ibn Abu Vaqqos R.A",
         options: [
             "Bilol Xabashiy R.A",
@@ -429,8 +462,41 @@ const questions = [
         ]
     },
     {
-        numb: 40,
-        question: "28. Rasululloh Sollalohu Alayhi Vasallam Bu yigit menga tog’a bo’ladi, yana kim menga o’z tog’asini ko’rsatadi? Bu Sahobiy kim?",
+        numb: 43,
+        question: "43. Rasululloh Sollalohu Alayhi Vasallamning qatnashgan eng so’nggi g’azot qaysi edi ?",
+        answer: "Tabuk g’azoti",
+        options: [
+            "Badr g’azoti",
+            "Uxut g’azoti",
+            "Handaq g’azoti",
+            "Tabuk g’azoti",
+        ]
+    },
+    {
+        numb: 44,
+        question: "44. Rasululloh Sollalohu Alayhi Vasallam Kim jang qilmoqchi bo’lsa ... kabi jang qilsin, deganlar. Bu Sahobiy kim ?",
+        answer: "Osim ibn Sobit R.A",
+        options: [
+            "Umar Ibn Hattob R.A",
+            "Xolid Ibn Valid R.A",
+            "Osim ibn Sobit R.A",
+            "Ibn Muoz R.A",
+        ]
+    },
+    {
+        numb: 45,
+        question: "45. Qur’onda har bir surani o’qishdan avval Allohni ismi zikr qilinadi lekin bir sura bor uni o’qishdan avval Allohning Rahmon va Rahimlik sifatlari tilga olinmaslik kerak bu qaysi sura ?",
+        answer: "Tavba surasi",
+        options: [
+            "Tavba surasi",
+            "Mulk surasi",
+            "Anfol surasi",
+            "Moida surasi",
+        ]
+    },
+    {
+        numb: 46,
+        question: "46. Rasululloh Sollalohu Alayhi Vasallam Bu yigit menga tog’a bo’ladi, yana kim menga o’z tog’asini ko’rsatadi? Bu Sahobiy kim?",
         answer: "Sa’d ibn Abu Vaqqos R.A",
         options: [
             "Abu Bakr Siddiq R.A",
@@ -439,4 +505,49 @@ const questions = [
             "Ibn Muoz R.A",
         ]
     },
+    {
+        numb: 47,
+        question: "47. Bizga ma’lumki inson avvali tuproqdan yaratilgan va yana tuproqqa aylanadi. Tuproq so’zi bilan tugaydigan sura qaysi ?",
+        answer: "Naba’ surasi",
+        options: [
+            "Isro surasi",
+            "Toxa surasi",
+            "Furqon surasi",
+            "Naba’ surasi",
+        ]
+    },
+    {
+        numb: 48,
+        question: "48.  Rasululloh Sollalohu Alayhi Vasallam shunday deganlar: Bu surani avvalgi o’n oyatiga, kimda kim to’la holda rioya qilib umr o’tkazsa, u shubhasiz jannatning eng ulug’i sanalgan Jannatul Firdavs merosh’ori bo’ladi.... Bu sura qaysi ?",
+        answer: "Mo'minun surasi",
+        options: [
+            "Naml surasi",
+            "Mo'minun surasi",
+            "Fotir surasi",
+            "Soffaat surasi",
+        ]
+    },
+    {
+        numb: 49,
+        question: "49. Hadislarni ilk bor yozib olgan sahobiy kim?",
+        answer: "Abu Hurayra R.A",
+        options: [
+            "As’ad ibn Zurora R.A",
+            "Abdulloh Ibn Masud R.A",
+            "Abu Hurayra R.A",
+            "Ali Ibn Abu Tolib R.A",
+        ]
+    },
+    {
+        numb: 50,
+        question: "50. Qiblamizning Masjidul Aqsodan Ka’baga o‘zgartirilishini amr etgan oyat Qur’oni karimning qaysi surasida ?",
+        answer: "Baqara surasi 144-oyat",
+        options: [
+            "Baqara surasi 144-oyat",
+            "Rad surasi 33-oyat",
+            "Anbiyo surasi 102-oyat",
+            "Ankabut surasi 55-oyat",
+        ]
+    },
+    
 ]
